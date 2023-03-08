@@ -31,13 +31,13 @@ else:
 # If the number is between 6 and 8, print to the console “6 or 7 or 8”
 # If the number is equal to 9 or 10, print to the console “9 or 10”
 
-random_number = ["0", "1", "3", "4", "5", "6", "7", "8", "9", "10"]
+random_number = random.randint(0, 10)
 
-if random_number == '1' <= '2':
+if random_number == random.randint(0, 2):
     print("0 or 1 or 2")
-elif random_number == '3' <= '5':
+elif random_number == random.randint(3, 5):
     print("3 or 4 or 5")
-elif random_number == '6' <= '8':
+elif random_number == random.randint(6, 8):
     print("6 or 7 or 8")
 else:
     print("9 or 10")

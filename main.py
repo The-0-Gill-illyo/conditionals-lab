@@ -1,3 +1,5 @@
+import random
+
 # Conditional Tasks
 
 # Task 1: Driving Age
@@ -14,7 +16,28 @@ minimum_driving_age = "16"
 
 drivers_age = input("Please enter your age. ")
 
-if minimum_driving_age >= drivers_age:
+if drivers_age >= minimum_driving_age:
     print("You are legally able to drive!")
 else:
     print("You are not old enough to drive yet.")
+    
+# Task 2: Random Number
+
+# Declare a variable to store a random number between 0 and 10. 
+# You will need to do some research to determine how to generate a random number in Python.
+# A good search term to use: “random number Python”
+# If the number is between 0 and 2, print to the console “0 or 1 or 2”
+# If the number is between 3 and 5, print to the console “3 or 4 or 5”
+# If the number is between 6 and 8, print to the console “6 or 7 or 8”
+# If the number is equal to 9 or 10, print to the console “9 or 10”
+
+random_number = ["0", "1", "3", "4", "5", "6", "7", "8", "9", "10"]
+
+if random_number == '1' <= '2':
+    print("0 or 1 or 2")
+elif random_number == '3' <= '5':
+    print("3 or 4 or 5")
+elif random_number == '6' <= '8':
+    print("6 or 7 or 8")
+else:
+    print("9 or 10")
